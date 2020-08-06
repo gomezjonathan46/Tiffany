@@ -104,28 +104,33 @@ nav .pages {
   margin-top: 10px;
 }
 
-.virtualLearning {
-  background-color: #f1e7e8;
+.contentSection:nth-of-type(2) {
   margin-top: 50px;
-  height: 100vh;
+  background-color: #f1e7e8;
 }
 
-.virtualLearning .content {
+.contentSection:nth-of-type(3) {
+  background-color: white;
+}
+
+.contentSection .content {
   width: 90%;
   margin: auto;
   padding: 4% 0;
   display: flex;
+  align-items: center;
 }
 
-.virtualLearning .content .image {
+.contentSection .content .image {
   width: 50%;
+  text-align: center;
 }
 
-.virtualLearning .content .textContainer {
+.contentSection .content .textContainer {
   width: 50%;
   max-width: 500px;
 }
 
-.virtualLearning .sectionButton {
+.contentSection .sectionButton {
   width: 200px;
 }
