@@ -113,6 +113,14 @@ nav .pages {
   background-color: white;
 }
 
+.contentSection:nth-of-type(3) .sectionButton {
+  width: 260px;
+}
+
+.contentSection:nth-of-type(4) {
+  background-color: #f1e7e8;
+}
+
 .contentSection .content {
   width: 90%;
   margin: auto;
