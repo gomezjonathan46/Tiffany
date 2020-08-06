@@ -58,6 +58,12 @@ nav .pages {
   background-color: #3dad9d;
 }
 
+.sectionButton:hover {
+  transform: scale(1.05);
+  transition: transform .1s ease-in-out;
+  cursor: pointer;
+}
+
 .intro {
   height: 60vh;
   min-height: 500px;
@@ -104,6 +110,12 @@ nav .pages {
   margin-top: 10px;
 }
 
+.intro .content .textContainer .buttons .button:hover {
+  transform: scale(1.05);
+  transition: transform .1s ease-in-out;
+  cursor: pointer;
+}
+
 .contentSection:nth-of-type(2) {
   margin-top: 50px;
   background-color: #f1e7e8;
@@ -119,6 +131,10 @@ nav .pages {
 
 .contentSection:nth-of-type(4) {
   background-color: #f1e7e8;
+}
+
+.contentSection:nth-of-type(4) .sectionButton {
+  width: 260px;
 }
 
 .contentSection .content {
@@ -137,6 +153,11 @@ nav .pages {
 .contentSection .content .textContainer {
   width: 50%;
   max-width: 500px;
+  line-height: 1.5;
+}
+
+.contentSection .content .textContainer p {
+  margin-bottom: 35px;
 }
 
 .contentSection .sectionButton {

@@ -44,6 +44,10 @@ nav
   box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.42)
   color: white
   background-color: $tiffTeal
+  &:hover
+    transform: scale(1.05)
+    transition: transform .1s ease-in-out
+    cursor: pointer
 
 .intro
   height: 60vh
@@ -77,6 +81,10 @@ nav
             border: 2px solid $tiffTeal
             padding: 8px 0
             margin-top: 10px
+          &:hover
+            transform: scale(1.05)
+            transition: transform .1s ease-in-out
+            cursor: pointer
 
 .contentSection
   &:nth-of-type(2)
@@ -88,6 +96,8 @@ nav
       width: 260px
   &:nth-of-type(4)
     background-color: #f1e7e8
+    .sectionButton
+      width: 260px
   .content
     width: 90%
     margin: auto
@@ -100,5 +110,8 @@ nav
     .textContainer
       width: 50%
       max-width: 500px
+      line-height: 1.5
+      p
+        margin-bottom: 35px
   .sectionButton
     width: 200px
