@@ -223,3 +223,26 @@ nav .pages {
 .grid .cards .card .textContainer p {
   text-align: left;
 }
+
+footer {
+  background-color: #403e56;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+footer .content p {
+  margin: 0;
+  font-size: 25px;
+}
+
+footer .content .socialMedia {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .content .socialMedia .item {
+  margin: 0 25px;
+}
