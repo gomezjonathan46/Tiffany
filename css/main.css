@@ -17,6 +17,7 @@ nav {
   transform: translateX(-50%);
   width: 100%;
   height: 25px;
+  z-index: 1000;
 }
 
 nav a {
@@ -245,4 +246,14 @@ footer .content .socialMedia {
 
 footer .content .socialMedia .item {
   margin: 0 25px;
+}
+
+footer .content .socialMedia .icon {
+  width: 160px;
+  height: 100px;
+  background-color: #4d4a69;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
 }
